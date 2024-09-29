@@ -6,7 +6,7 @@ COPY requierments.txt .
 
 RUN pip install -r requierments.txt
 
-# muilti-stage 
+# multi-stage 
 
 FROM alpine:latest
 
